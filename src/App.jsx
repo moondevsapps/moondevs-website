@@ -4,11 +4,13 @@ import Home from './pages/Home';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import Terms from './pages/Terms';
 import NotFound from './components/NotFound';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <div className="bg-[#0B0B0B] text-white min-h-screen">
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/privacy/nexus-todo" element={<PrivacyPolicy />} />
