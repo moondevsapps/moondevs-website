@@ -23,10 +23,10 @@ const Terms = () => {
             <ShieldCheck size={32} className="text-cyan-400" />
           </div>
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-4">
-            Nexus <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Todo</span>
+            Moon<span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Devs</span>
           </h1>
           <p className="text-lg text-white/50 max-w-[500px] mx-auto font-light">
-            Terms & Conditions. Everything you need to know about the rules and guidelines for using our services.
+            Terms & Conditions. Everything you need to know about the rules and guidelines for using the MoonDevs website and services.
           </p>
         </motion.div>
         
