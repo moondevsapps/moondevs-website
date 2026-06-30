@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import PrivacyPolicy from './pages/PrivacyPolicy';
+import NewAppPrivacyPolicy from './pages/NewAppPrivacyPolicy';
 import Terms from './pages/Terms';
 import NotFound from './components/NotFound';
 import ScrollToTop from './components/ScrollToTop';
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/privacy/nexus-todo" element={<PrivacyPolicy />} />
+          <Route path="/privacy/alarmup" element={<NewAppPrivacyPolicy />} />
           <Route path="/terms/nexus-todo" element={<Terms />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
