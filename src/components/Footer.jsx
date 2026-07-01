@@ -33,7 +33,7 @@ const Footer = () => {
           <a href="/#playstore" className="text-sm font-medium text-muted hover:text-white transition-colors">
             Play Store
           </a>
-          <Link to="/terms/nexus-todo" className="text-sm font-medium text-muted hover:text-white transition-colors">
+          <Link to="/terms" className="text-sm font-medium text-muted hover:text-white transition-colors">
             Terms
           </Link>
         </nav>

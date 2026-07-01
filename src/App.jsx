@@ -16,7 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/privacy/nexus-todo" element={<PrivacyPolicy />} />
           <Route path="/privacy/alarmup" element={<NewAppPrivacyPolicy />} />
-          <Route path="/terms/nexus-todo" element={<Terms />} />
+          <Route path="/terms" element={<Terms />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
