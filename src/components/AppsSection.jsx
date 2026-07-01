@@ -13,7 +13,7 @@ const apps = [
   },
   {
     id: 'alarm-me',
-    name: 'Alarm.Me',
+    name: 'Alarm Me',
     desc: 'A smart alarm app that forces you out of bed with math problems, photo missions, and challenges.',
     tag: 'Lifestyle',
     icon: <AlarmClock size={32} className="text-white" />,
